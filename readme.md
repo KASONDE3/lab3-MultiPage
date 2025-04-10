@@ -1,5 +1,15 @@
 KASONDE MUKUKA 2021476791
 
+# Lab 4 - JavaScript Interactive Web Features
+
+## Completed Features
+- Theme toggle on the home page (light/dark mode)
+- Enhanced contact form with validation and a custom greeting message
+- Fetch API integration to load team member names from a remote API
+- Interactive FAQ section to show/hide answers on click
+
+LAB 3
+
 Outcomes of the the lab
 1. How to style a web page using css 
 2. How to style multiple pages and linking external css file to html inorder to make the code more readable and clean 

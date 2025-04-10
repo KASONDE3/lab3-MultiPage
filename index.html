@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - My Website</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    
-    <nav class="navbar">
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon">&#9776;</label>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    
+  <nav class="navbar">
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <header class="hero">
-        <h1>Welcome to My Website</h1>
-        <p>Implementing diverse web solutions</p>
-    </header>
+  <header class="hero">
+    <h1>Welcome to My Website</h1>
+    <p>Implementing diverse web solutions</p>
+  </header>
 
-    <main class="home-container">
-        <section class="intro">
-            <h2>About Us</h2>
-            <p>We provide top-notch web development services tailored to your needs.</p>
-        </section>
-        <aside class="sidebar">
-            <h2>Latest News</h2>
-            <p>Stay updated with our latest tech insights.</p>
-        </aside>
-    </main>
+  <!-- Theme Toggle Button -->
+  <section class="theme-toggle-section">
+    <button id="themeToggle">Switch Theme</button>
+  </section>
+  <br>
+  <main class="home-container">
+    <!---
+    <section class="intro">
+      <h2>About Us</h2>
+      <p>We provide top-notch web development services tailored to your needs.</p>
+    </section>
+    <aside class="sidebar">
+      <h2>Latest News</h2>
+      <p>Stay updated with our latest tech insights.</p>
+    </aside>-->
+    <br>
+    <!-- Fetch Team Members -->
+    <section class="team">
+      <h2>Team Members</h2>
+      <ul id="userList"></ul>
+      <button id="loadUsersBtn">Load Users</button>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 My Website. All rights reserved.</p>
-    </footer>
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="faq-item">
+        <h3 class="question">What is this website about?</h3>
+        <p class="answer">This is a demo project for learning web development.</p>
+      </div>
+    </section>
+  </main>
 
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
 </body>
 </html>
+
